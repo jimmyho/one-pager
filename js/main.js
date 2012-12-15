@@ -6,7 +6,7 @@ $(document).ready(function($) {
 
         var to_elem = $(this).attr('href')
         if (to_elem && $(to_elem).length == 1 ) {
-            $.scrollTo($(to_elem), 800)
+            $.scrollTo($(to_elem), 800, {offset:-41})
         } else {
             console.log('Cannot scroll to: '+ to_elem);
         }
