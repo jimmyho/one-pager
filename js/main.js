@@ -1,6 +1,6 @@
 
 $(document).ready(function($) {
-
+    // scroll to for all '.nav a'
     $('.nav a').click(function(event){
         event.preventDefault(); 
 
@@ -8,7 +8,7 @@ $(document).ready(function($) {
         if (to_elem && $(to_elem).length == 1 ) {
             $.scrollTo($(to_elem), 800)
         } else {
-            console.log('Element not found: '+ to_elem);
+            console.log('Cannot scroll to: '+ to_elem);
         }
     });
 
