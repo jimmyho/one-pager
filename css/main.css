@@ -77,11 +77,48 @@ body > .navbar .brand:hover {
   text-shadow: 0 0 10px rgba(255,255,255,.25);
 }
 
+.row ul li {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.2;
+}
 
-/* Masthead (docs home)
+h2 {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 101, 148, 0.74);
+  padding: 8px 28px 8px 28px;
+  display: inline-block;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+h3 {
+  display: inline-block ;
+  font-size:20px;
+  text-align: center;
+  font-color:#;
+  padding: 0px 24px 0px 24px;
+  background-color: #f0f0f0;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+}
+.span4, .span6, .span12 {
+  margin-bottom:40px;
+}
+
+#myphoto {
+  padding-bottom:20px;
+}
+#awesome li {
+  padding-bottom:20px;
+}
+/* Masthead 
 ------------------------- */
 .masthead {
-  padding: 70px 0 80px;
+  /*padding: 70px 0 80px;*/
   margin-bottom: 0;
   color: #fff;
 }
@@ -137,6 +174,10 @@ body > .navbar .brand:hover {
   .jumbotron {
     margin-top: -20px; /* Offset bottom margin on .navbar */
   }
+  .row ul li {
+    font-size: 24px;
+  }
+
 }
 
 /* Tablet
@@ -172,6 +213,12 @@ body > .navbar .brand:hover {
   .footer p {
     margin-bottom: 9px;
   }
+  .row ul li {
+    font-size: 20px;
+  }
+  #myphoto {
+    width: 300px;
+  }
 }
 
 /* Landscape phones
@@ -195,8 +242,82 @@ body > .navbar .brand:hover {
   .jumbotron .btn {
     font-size: 18px;
   }
-  .jumbotron .btn {
-    display: block;
-    margin: 0 auto;
+  .row ul li {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size:24px;
+    padding: 6px 20px 6px 20px;
+  }
+  #myphoto {
+    width:200px;
+  }
+  #awesome li {
+    padding-bottom:10px;
   }
 }
+
+/* Fonts 
+-------------------------*/
+ul {
+  margin-left:0px;
+}
+
+.row {
+  text-align: center;
+}
+
+.odd {
+  background-color: white;
+}
+.even {
+  background-color: #f9f9f9;
+}
+.masthead {
+  /*padding: 70px 0 80px;*/
+  margin-bottom: 0;
+}
+
+section {
+  border-bottom: #DFDFDB 1px solid;
+  padding:30px 0 30px;
+}
+
+
+
+.img_center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block !important;
+}
+
+.love {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: text-top;
+  background-image: url("../img/heart.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+.hate {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: text-top;
+  background-image: url("../img/heart.png");
+  background-position: 0px -50px;
+  background-repeat: no-repeat;
+}
+
+#findme img {
+  padding-left:40px;
+  padding-right:40px;
+}
+
+#social {
+  background-image: url(../img/bg.jpg)
+}
+

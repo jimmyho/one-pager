@@ -11,5 +11,6 @@ $(document).ready(function($) {
             console.log('Cannot scroll to: '+ to_elem);
         }
     });
-
+    $('body section').filter(':even').addClass('even');
+    $('body section').filter(':odd').addClass('odd');
 });
